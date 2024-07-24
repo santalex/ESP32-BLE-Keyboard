@@ -165,6 +165,10 @@ void BleKeyboard::setName(std::string deviceName) {
   this->deviceName = deviceName;
 }
 
+void BleKeyboard::setManufacturer(std::string deviceManufacturer) {
+    this->deviceManufacturer = deviceManufacturer;
+}
+
 /**
  * @brief Sets the waiting time (in milliseconds) between multiple keystrokes in NimBLE mode.
  * 
